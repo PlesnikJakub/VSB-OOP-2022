@@ -23,3 +23,4 @@ Your program should do following:
 * https://www.codeproject.com/Articles/5270863/StructMapping-Mapping-JSON-to-and-from-a-Cplusplus
 * https://www.geeksforgeeks.org/csv-file-management-using-c/
 * https://stackoverflow.com/questions/19936483/c-reading-csv-file
+* https://www.delftstack.com/howto/c/fscanf-line-by-line-in-c/
