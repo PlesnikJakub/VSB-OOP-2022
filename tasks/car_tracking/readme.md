@@ -24,3 +24,5 @@ Your program should do following:
 * https://www.geeksforgeeks.org/csv-file-management-using-c/
 * https://stackoverflow.com/questions/19936483/c-reading-csv-file
 * https://www.delftstack.com/howto/c/fscanf-line-by-line-in-c/
+* https://www.quantstart.com/articles/Mathematical-Constants-in-C/
+
