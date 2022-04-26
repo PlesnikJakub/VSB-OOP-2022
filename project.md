@@ -21,14 +21,14 @@ V případě potřeby mě můžete kontaktovat.
 **Užiavatelé** sociální sítě mohou mezi sebou navázat **propojení**, vytvářet **komentáře** a **články**.
 S dědičností je to tady horší, ale komentář i článek na zdi mají společné atributy - čas, autor, počet liků. Dále by šlo přidat různé typy uživatelů (user, admin) s nějakým společným předkem nebo různé typy přípspěvků (text, galerie, událost).
 
-### 1. Kniha jízd :car:
+### 2. Kniha jízd :car:
 Kniha jízd obsahuje **řidiče**, **vozidla**, **jízdy**, **gps souřadnice**. Třídy obsahují své specifické atributy.
 Dědičnost se nabízí implementovat nad vozidly jako nákladní auto, osobní auto, etc nebo nad typy uživatelů. Jízdy mohou obsahovat pole gps polohu a metodu pro výpočet délky trasy.
 
-### 1. Ordinace :ambulance:
+### 3. Ordinace :ambulance:
 Ordinace obsahuje **sestry**, **doktory** a **pacienty**. Všechny tyto třídy mohou mít jednoho společného předka, člověka. Dále sestry a doktoři jsou zaměstnanci. Vše můžete zabalit do třídy nemocnice nebo ambulance. Pacient u sebe může mít pole objektů typu dignóza.
 
-### 1. UI aplikace :label:
+### 4. UI aplikace :label:
 Třídy, které budou simulovat dědičnou strukturu UI elementů. Od nejmenšího čistě abstraktního prvku **renderable**, přes **label**, **button** a další. 
 
 Pokud si z výše uvedených projektů nemůžete vybrat, můžete implementovat vlastní téma. Podmínky zůstávají stejné.
