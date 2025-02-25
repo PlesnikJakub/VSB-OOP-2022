@@ -3,12 +3,40 @@
 
 #include <iostream>
 #include "KeyValue.h"
+#include "Person.h"
 
 int main()
 {
     std::cout << "Hello World!\n";
 
-    KeyValue* firstKV = new KeyValue(0, 1.5);
+    Person* p1 = new Person("Jakub", 25);
+
+    std::cout << p1->GetName() << std::endl;
+
+    Person* p2 = new Person("Eliska", 25);
+
+    std::cout << p2->GetName() << std::endl;
+
+    p2->SetAge(26);
+
+    std::cout << p2->GetAge() << std::endl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*KeyValue* firstKV = new KeyValue(0, 1.5);
     KeyValue* last = firstKV;
     for (int i = 1; i < 1000; i++)
     {
@@ -22,5 +50,5 @@ int main()
         current = current->GetNext();
     }
 
-    delete firstKV;
+    delete firstKV;*/
 }
